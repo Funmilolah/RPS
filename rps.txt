@@ -1,0 +1,41 @@
+Rock Paper Scissors (or RPS) is one of my favorite Python projects for beginners. It’s simple enough but still challenging since you need to think about how to turn the game rules into logic for the program.
+
+The rules are simple:
+
+    Paper wins over rock
+    Rock wins over scissors
+    Scissors win over paper
+
+Have your program generate a random answer for the computer – but don’t display it. Then, ask the player for their answer.
+
+
+
+
+my mind 
+
+on a troix choix :
+- Paper == 1
+- Rock == 2
+- Scissors == 3
+
+Conditions :
+
+- Paper > Rock 1>2
+- Rock > Scissors  2>3
+- Scissors > Paper  3>1 
+
+Deux etats de fin :
+- Victoire 
+- Defaite
+
+
+Conditions de victoire : 2 victoires sur 3 parties
+Conditions de defaite : 2 defaites sur 3 parties 
+
+Variables :
+
+- Choix du joueur 
+- Choix de l"ordinateur (random.randint(1,3))
+
+
+modules utilisees : random
